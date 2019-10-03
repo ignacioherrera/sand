@@ -62,7 +62,6 @@ jQuery(function ($) {
       var clientHeight = $(window).height();
       var width = $(window).width();
       //Header al 100% de la pantalla del cliente
-      console.log(clientHeight, width);
       if (width >= 768 && width>= clientHeight) {
         $('.fullHeightHeader').height(clientHeight);
         $('.fullHeightNoMenu').height(clientHeight-130);
